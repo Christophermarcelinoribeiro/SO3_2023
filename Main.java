@@ -144,6 +144,7 @@ public class Main {
       int[] tempo_chegada = chegada.clone();
       int processo = 0;
 
+      //PRINT
       System.out.println(" ");
       for(int i=1; i<999999; i++) { 
         System.out.println("tempo["+i+"]: processo["+processo+"] restante = " + (tempo_restante[processo]-1));
